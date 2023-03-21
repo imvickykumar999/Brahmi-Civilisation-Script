@@ -40,10 +40,16 @@ The Brahmi symbol for /ka/
 > XML , JSON , BSON, YAML , MessagePack, and protobuf are some commonly used data (.ser) serialization formats.
 >
 > <hr>
+
+<br>
+
+## `The` [`Rosetta Stone`](https://simple.wikipedia.org/wiki/Rosetta_Stone)
+
+> There are 3 types of writing on the Rosetta stone; Greek, Egyptian, and Egyptian writing.
 >
-> # `Brahmi` : The oldest readable Indian script
+> The stone is now in the British Museum in London.
 >
-> [![image](https://user-images.githubusercontent.com/50515418/226650017-ba1f0ebe-1d7d-487e-a065-320ce7e80e73.png)](https://storytrails.in/history/brahmi-script-decoding-ancient-indian-history/)
+> [![image](https://user-images.githubusercontent.com/50515418/226673256-bf876c6e-d05e-483c-bfac-934fcc4282ae.png)](https://www.khanacademy.org/humanities/ancient-art-civilizations/egypt-art/x7e914f5b:late-period-ptolemaic-and-roman-periods/a/the-rosetta-stone)
 
 <br>
 
@@ -425,8 +431,8 @@ The Brahmi symbol for /ka/
 
 <br> <br>
 
-> ## `The` [Unicode](https://www.fileformat.info/info/unicode/block/devanagari/utf8test.htm) standard arranges groups of characters together in blocks. 
->  This is the complete list of blocks.
+> ## `The` [Unicode](https://www.fileformat.info/info/unicode/block/devanagari/utf8test.htm) *standard arranges groups of characters together in blocks.*
+>  **This is the complete list of blocks.**
 
 
       #-*- coding: utf-8 -*-
