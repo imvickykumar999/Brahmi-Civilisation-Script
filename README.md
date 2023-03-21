@@ -24,15 +24,30 @@ The Brahmi symbol for /ka/
 </tr>
 
 <tr>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Brahmi_diacritic_vowels.jpg/330px-Brahmi_diacritic_vowels.jpg" alt="3" height = 350px></td>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Brahmika.svg/330px-Brahmika.svg.png" alt="4" height = 350px></td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Brahmi_diacritic_vowels.jpg/330px-Brahmi_diacritic_vowels.jpg" alt="3" height = 300px></td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Brahmika.svg/330px-Brahmika.svg.png" alt="4" height = 300px></td>
 </tr>
 
 </table>
 
 <br>
 
-> # [`Brahmi Script`](https://en.wikipedia.org/wiki/Brahmi_script#Vowels)
+> [`first-letters-root.ser`](https://raw.githubusercontent.com/bobholt/holtgenealogy/master/serialized/first-letters-root.ser)
+>
+> A SER file contains a series of frame captures saved in the Lucam video format, which is used to store astronomical captures, such as planets, the sun, and the moon. It stores data about image frames and includes metadata, such as timestamps, exposure time, instrument, telescope, and observer.
+>
+>
+> XML , JSON , BSON, YAML , MessagePack, and protobuf are some commonly used data (.ser) serialization formats.
+>
+> <hr>
+>
+> # `Brahmi` : The oldest readable Indian script
+>
+> [![image](https://user-images.githubusercontent.com/50515418/226650017-ba1f0ebe-1d7d-487e-a065-320ce7e80e73.png)](https://storytrails.in/history/brahmi-script-decoding-ancient-indian-history/)
+
+----------------------------
+
+## [`Brahmi Script`](https://en.wikipedia.org/wiki/Brahmi_script#Vowels)
 
 <table class="wikitable">
 <tbody><tr>
