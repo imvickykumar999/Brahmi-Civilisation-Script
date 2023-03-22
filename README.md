@@ -1,5 +1,7 @@
 # `Civilisation Script` [`Translator`](https://swarajyamag.com/culture/how-i-deciphered-the-indus-valley-script)
 
+      Brahmi
+
 <br>
 
 <table>
@@ -39,10 +41,42 @@ The Brahmi symbol for /ka/
 >
 > XML , JSON , BSON, YAML , MessagePack, and protobuf are some commonly used data (.ser) serialization formats.
 >
-> <hr>
 
 <br>
 
+<table>
+<tr>
+
+<td>
+<h2>
+<a href="https://en.wikipedia.org/wiki/Brahmi_script">
+Brahmi script on Ashoka Pillar in Sarnath
+</a>
+</h2>
+</td>
+
+<td>
+<h2>
+<a href="https://en.wikipedia.org/wiki/Pillars_of_Ashoka">
+One of the Pillars of Ashoka, in Vaishali
+</a>
+</h2>
+</td>
+
+</tr>
+
+<tr>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Brahmi_pillar_inscription_in_Sarnath.jpg/405px-Brahmi_pillar_inscription_in_Sarnath.jpg" alt="3" height = 300px></td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ashoka_pillar_at_Vaishali%2C_Bihar%2C_India.jpg/525px-Ashoka_pillar_at_Vaishali%2C_Bihar%2C_India.jpg" alt="4" height = 300px></td>
+</tr>
+
+</table>
+
+> Brahmi (/ˈbrɑːmi/; 𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻; ISO: Brāhmī) is a writing system of ancient South Asia that appeared as a fully developed script in the third century BCE. 
+> 
+> Its descendants, the Brahmic scripts, continue to be used today across South and Southeast Asia.
+
+<!-- 
 ## `The` [`Rosetta Stone`](https://simple.wikipedia.org/wiki/Rosetta_Stone)
 
 > There are 3 types of writing on the Rosetta stone; Greek, Egyptian, and Egyptian writing.
@@ -50,6 +84,8 @@ The Brahmi symbol for /ka/
 > The stone is now in the British Museum in London.
 >
 > [![image](https://user-images.githubusercontent.com/50515418/226673256-bf876c6e-d05e-483c-bfac-934fcc4282ae.png)](https://www.khanacademy.org/humanities/ancient-art-civilizations/egypt-art/x7e914f5b:late-period-ptolemaic-and-roman-periods/a/the-rosetta-stone)
+ -->
+
 
 <br>
 
