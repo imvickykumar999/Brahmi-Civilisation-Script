@@ -1,6 +1,9 @@
 > ## `Devanagari` ranges from `(6595, 6661)` in [`first-letters-root.json`](https://github.com/imvickykumar999/Civilisation-Script-Translator/blob/ea459f8056a5d06a94d878d112b2032d68787610/translator/first-letters-root/first-letters-root.json#L6597)
 >
     Translator with Consonents only
+    
+<!-- Use Vowel Table : https://en.wikipedia.org/wiki/Brahmi_script#Vowels -->
+
 > 
 > [![image](https://user-images.githubusercontent.com/50515418/226930283-faedf660-ab21-47e8-9241-350defc12f24.png)](https://www.englishbix.com/english-words-without-vowels/)
 >
