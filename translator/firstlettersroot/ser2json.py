@@ -1,6 +1,5 @@
 
 import json
-
 with open('first-letters-root.ser', encoding="utf8") as f:
     w = f.read()
     

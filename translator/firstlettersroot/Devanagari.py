@@ -2,7 +2,7 @@
 # https://www.fileformat.info/info/unicode/block/devanagari/index.htm
 
 import json
-info = open('first-letters-root/first-letters-root.json')
+info = open('firstlettersroot/first-letters-root.json')
 res = json.load(info)
 
 def devRange(a = 6595, b = 6661, p=0):
@@ -25,5 +25,3 @@ def devList(key, p=0):
         if p:
             print(i, res[f'"{i}"'], end='\t')
     return c
-
-# devRange(6621, 6661, 1)
