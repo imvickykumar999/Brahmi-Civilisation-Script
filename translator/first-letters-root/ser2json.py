@@ -1,4 +1,6 @@
 
+import json
+
 with open('first-letters-root.ser', encoding="utf8") as f:
     w = f.read()
     
@@ -7,9 +9,9 @@ d = {}
 
 for k,i in enumerate(y):
     j = i.split(';')[1].split(':')
-    d[k] = j[-1]
+    # d[str(k)] = j[-1] # number as key
+    d[j[-1]] = k # symbol as key
 
-import json
 with open('first-letters-root.json', 'w') as f:
     json.dump(d, f)
 
