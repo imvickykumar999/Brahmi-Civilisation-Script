@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup as bs
 from firstlettersroot import Devanagari as Dev
 import requests, json
+import pandas as pd
 
 link = 'https://imvickykumar999.github.io/Civilisation-Script-Translator/'
 req = requests.get(link)
@@ -43,46 +44,58 @@ info = open('devanagari.json')
 res = json.load(info)
 # print(res)
 
-print('hindi, english, brahmi, ser_code')
+d={}
+print('English, Hindi, Brahmi, Ser_Code')
+print('-'*32, end='\n\n')
+
 for i in res:
-    print(i, '\t', res[i][0], '\t', res[i][1], '\t', res[i][2])
+    print(res[i][0], '\t', i, '\t', res[i][1], '\t', res[i][2])
+    d.update({res[i][0] : [i, res[i][1], res[i][2]]})
+# print(d)
+
+df = pd.DataFrame.from_dict(data=d, orient='index')
+# print(df)
+df.to_csv('devanagari.csv', header=False)
+
 
 '''
 Output:
 
-hindi, english, brahmi, ser_code
-क        k       𑀓       6621
-ख        kh      𑀔       6622
-ग        g       𑀕       6623
-घ        gh      𑀖       6625
-ङ        ṅ       𑀗       6626
-च        c       𑀘       6627
-छ        ch      𑀙       6628
-ज        j       𑀚       6629
-झ        jh      𑀛       6632
-ञ        ñ       𑀜       6633
-ट        ṭ       𑀝       6634
-ठ        ṭh      𑀞       6635
-ड        ḍ       𑀟       6636
-ढ        ḍh      𑀠       6638
-ण        ṇ       𑀡       6639
-त        t       𑀢       6640
-थ        th      𑀣       6641
-द        d       𑀤       6642
-ध        dh      𑀥       6643
-न        n       𑀦       6644
-प        p       𑀧       6645
-फ        ph      𑀨       6646
-ब        b       𑀩       6647
-भ        bh      𑀪       6649
-म        m       𑀫       6650
-य        y       𑀬       6651
-र        r       𑀭       6653
-ल        l       𑀮       6654
-व        v       𑀯       6656
-श        ś       𑀰       6657
-ष        ṣ       𑀱       6658
-स        s       𑀲       6659
-ह        h       𑀳       6660
+English, Hindi, Brahmi, Ser_Code
+--------------------------------
+
+k        क       𑀓       6621
+kh       ख       𑀔       6622
+g        ग       𑀕       6623
+gh       घ       𑀖       6625
+ṅ        ङ       𑀗       6626
+c        च       𑀘       6627
+ch       छ       𑀙       6628
+j        ज       𑀚       6629
+jh       झ       𑀛       6632
+ñ        ञ       𑀜       6633
+ṭ        ट       𑀝       6634
+ṭh       ठ       𑀞       6635
+ḍ        ड       𑀟       6636
+ḍh       ढ       𑀠       6638
+ṇ        ण       𑀡       6639
+t        त       𑀢       6640
+th       थ       𑀣       6641
+d        द       𑀤       6642
+dh       ध       𑀥       6643
+n        न       𑀦       6644
+p        प       𑀧       6645
+ph       फ       𑀨       6646
+b        ब       𑀩       6647
+bh       भ       𑀪       6649
+m        म       𑀫       6650
+y        य       𑀬       6651
+r        र       𑀭       6653
+l        ल       𑀮       6654
+v        व       𑀯       6656
+ś        श       𑀰       6657
+ṣ        ष       𑀱       6658
+s        स       𑀲       6659
+h        ह       𑀳       6660
 
 '''
