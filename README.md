@@ -32,7 +32,7 @@ The Brahmi symbol for /ka/
 
 <br> <br>
 
-> ### [`first-letters-root.ser`](https://raw.githubusercontent.com/bobholt/holtgenealogy/master/serialized/first-letters-root.ser) *into* [`first-letters-root.json`](https://raw.githubusercontent.com/imvickykumar999/Civilisation-Script-Translator/main/translator/first-letters-root.json)
+> ### [`first-letters-root.ser`](https://raw.githubusercontent.com/bobholt/holtgenealogy/master/serialized/first-letters-root.ser) *into* [`first-letters-root.json`](https://github.com/imvickykumar999/Civilisation-Script-Translator/blob/ea459f8056a5d06a94d878d112b2032d68787610/translator/first-letters-root/first-letters-root.json#L6597)
 >
 > A SER file contains a series of frame captures saved in the Lucam video format, which is used to store astronomical captures, such as planets, the sun, and the moon. It stores data about image frames and includes metadata, such as timestamps, exposure time, instrument, telescope, and observer.
 >
