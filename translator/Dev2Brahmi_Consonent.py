@@ -37,10 +37,10 @@ for i,j,k in zip(tr[0], tr[1], tr[2]):
 # print(d) # hindi : [english, brahmi, ser_code]
 # print(len(d))
 
-with open('output_files/devanagari.json', 'w') as f:
+with open('data_files/devanagari.json', 'w') as f:
     json.dump(d, f)
 
-info = open('output_files/devanagari.json')
+info = open('data_files/devanagari.json')
 res = json.load(info)
 # print(res)
 
@@ -55,7 +55,7 @@ for i in res:
 
 df = pd.DataFrame.from_dict(data=d, orient='index')
 # print(df)
-df.to_csv('output_files/devanagari.csv', header=False)
+df.to_csv('data_files/devanagari.csv', header=False)
 
 
 '''
